@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Orange">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e8f5e9"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <circle cx="150" cy="120" r="95" fill="#66bb6a" fill-opacity="0.18"/>
+  <circle cx="1080" cy="560" r="140" fill="#66bb6a" fill-opacity="0.16"/>
+  <rect x="80" y="210" width="1040" height="300" rx="24" fill="#ffffff" fill-opacity="0.72"/>
+  <text x="600" y="320" font-family="Segoe UI, Arial, sans-serif" font-size="36" text-anchor="middle" fill="#1f2937">Predicted Crop</text>
+  <text x="600" y="395" font-family="Segoe UI, Arial, sans-serif" font-size="74" font-weight="700" text-anchor="middle" fill="#111827">Orange</text>
+  <text x="600" y="455" font-family="Segoe UI, Arial, sans-serif" font-size="30" text-anchor="middle" fill="#374151">Crop Recommendation System</text>
+</svg>

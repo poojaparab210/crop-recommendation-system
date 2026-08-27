@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}Admin Forgot Username{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow border-0">
+            <div class="card-body p-4 p-md-5">
+                <h4 class="mb-3"><i class="fa-solid fa-user"></i> Admin Forgot Username</h4>
+                <p class="text-muted small mb-4">Enter admin email to recover username.</p>
+
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label class="form-label">Admin Email</label>
+                        <input type="email" name="email" class="form-control" placeholder="admin@example.com" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-success w-100">Get Username</button>
+                </form>
+
+                <div class="text-center mt-3">
+                    <a href="{% url 'admin_login' %}" class="small text-decoration-none">
+                        <i class="fa-solid fa-arrow-left"></i> Back to Admin Login
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
